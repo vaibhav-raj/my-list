@@ -18,11 +18,12 @@ const tvShow = require('./routes/tvShowRoutes');
 const myList = require('./routes/myListRoutes');
 
 // Add routes to the app
+app.use('/api/owner', { "name": "vaibhav" });
 app.use('/api/users', user);
 app.use('/api/movies', movie);
 app.use('/api/tv-shows', tvShow);
 app.use('/api', myList);
-app.use('/', { "name": "vaibhav" });
+
 
 
 // Error handling middleware
