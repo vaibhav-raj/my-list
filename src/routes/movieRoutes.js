@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const MovieController = require('../controllers/movieController');
-const Auth = require('../middleware/Auth');
+const Auth = require('../middleware/auth');
 
 // Create instance 
 const movieController = new MovieController()
