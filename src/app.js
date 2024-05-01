@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const errorHandler = require('../src/middleware/errorHandler');
 const Auth = require('./middleware/auth');
-const app = express();
+const app = express.Router();
 
 // Middleware
 app.use(bodyParser.json());
