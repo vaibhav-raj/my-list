@@ -1,0 +1,24 @@
+{
+  "name": "Vaibhav Raj",
+  "profession": "Software Developer",
+  "location": "Hyderabad",
+  "skills": ["JavaScript", "Node.js", "Express.js", "Nest.js", "GraphQL", "MongoDB", "React"],
+  "education": [
+    {
+      "degree": "Bachelor of Technology",
+      "major": "Computer Science",
+      "college": "Chandra Shekhar Azad University Of Agriculture & Technology"
+    }
+  ],
+  "work_experience": [
+    {
+      "position": "Software Developer",
+      "company": "Upgrad KnowledgeHut",
+      "duration": "3 years"
+    }
+  ],
+  "social_media": {
+    "linkedin": "https://www.linkedin.com/in/vaibhav-raj-alpha/",
+    "github": "https://github.com/vaibhav-raj"
+  }
+}
