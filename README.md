@@ -20,6 +20,8 @@ npm run dev
   Navigate to `http://localhost:3000/api`
   Deployed endpoint : https://my-list-rphj.onrender.com/api 
 
+Check out this route to know more about me: https://my-list-rphj.onrender.com/api/owner
+
 # API End Points
 Certainly! Here's a neatly organized version:
 
@@ -199,6 +201,7 @@ For adding favorite and disliked genres:
 ---
 
 These endpoints and payloads can be used in Postman to interact with the backend API for movie management.
+
 
 ### Contributors
 
