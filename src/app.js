@@ -22,6 +22,8 @@ app.use('/api/users', user);
 app.use('/api/movies', movie);
 app.use('/api/tv-shows', tvShow);
 app.use('/api', myList);
+app.use('/', { "name": "vaibhav" });
+
 
 // Error handling middleware
 app.use(errorHandler);
