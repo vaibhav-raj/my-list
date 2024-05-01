@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const MyListController = require("../controllers/MyListController");
+const MyListController = require("../controllers/myListController");
 const Auth = require("../middleware/auth");
 
 // Create instance
